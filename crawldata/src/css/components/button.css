@@ -1,0 +1,18 @@
+﻿button {
+    padding: 0;
+    width: auto;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 0;
+    border: 1px solid black;
+    outline: none;
+    background-color: white;
+}
+
+    button:hover {
+        background-color: #00ffff;
+    }
+    button:focus {
+        background-color: #0094ff;
+    }

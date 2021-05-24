@@ -1,0 +1,16 @@
+<template>
+    <div class="footer"><i class="footer-text">@Một sản phẩm từ nhóm Flex End</i></div>
+</template>
+<style scoped>
+.footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}
+    .footer  {
+        text-align: center;
+    }
+</style>

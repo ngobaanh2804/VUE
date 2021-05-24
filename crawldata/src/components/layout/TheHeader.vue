@@ -1,0 +1,55 @@
+<template>
+    <div class="header">
+        <div class="header-left">
+            <h2><b>WEBSCRAPY</b></h2>
+        </div>
+        <div class="header-right">
+            <button class="navbar-element isactive">Maps</button>
+            <button class="navbar-element">Amazon</button>
+            <button class="navbar-element">Another</button>
+            <button class="navbar-element">Contact Us</button>
+        </div>
+    </div>
+</template>
+<style scoped>
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+    .header .header-left {
+        height: 100%;
+        margin-left: 5%;
+        cursor: pointer;
+    }
+
+    .header .header-right {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 5%;
+    }
+.header-right .navbar-element {
+    padding: 0;
+    width: 100px;
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+            .navbar-element:hover {
+                background-color: #00ffff;
+            }
+            .navbar-element:focus {
+                background-color: #0094ff;
+            }
+           
+</style>>
